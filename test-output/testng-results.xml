@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T19:44:54Z" name="Default suite" finished-at="2024-01-25T19:44:57Z" duration-ms="3691">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T19:44:54Z" name="Default test" finished-at="2024-01-25T19:44:57Z" duration-ms="3691">
+      <class name="com.api.test.PET_API_DDT">
+        <test-method is-config="true" signature="setData()[pri:0, instance:com.api.test.PET_API_DDT@19e4653c]" started-at="2024-01-25T19:44:54Z" name="setData" finished-at="2024-01-25T19:44:54Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method signature="Post_Pet()[pri:0, instance:com.api.test.PET_API_DDT@19e4653c]" started-at="2024-01-25T19:44:54Z" name="Post_Pet" finished-at="2024-01-25T19:44:56Z" duration-ms="2048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Post_Pet -->
+        <test-method signature="get_Pet()[pri:0, instance:com.api.test.PET_API_DDT@19e4653c]" started-at="2024-01-25T19:44:56Z" name="get_Pet" finished-at="2024-01-25T19:44:57Z" depends-on-methods="com.api.test.PET_API_DDT.Post_Pet" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Pet -->
+      </class> <!-- com.api.test.PET_API_DDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
